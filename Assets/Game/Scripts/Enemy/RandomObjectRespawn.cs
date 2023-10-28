@@ -5,7 +5,7 @@ namespace Game {
 public class RandomObjectRespawn : MonoBehaviour
 {
     public GameObject[] gameObjects;
-    public GameObject[] respawnPositions;   // Lista de game objects representando os spawns.
+    public GameObject[] respawnPositions;  
     public int timeToRespawn = 1;
 
     private int currentSpawnIndex = 0;
